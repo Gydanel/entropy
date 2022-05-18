@@ -38,7 +38,8 @@ $ go run ./cmd/<app>/main.go --help
 
 ```shell
 $ entropy-cli --help
-
+```
+```
 usage: entropy [flags] [path ...]
   -high float
         threshold for counting blocks as high entropy (default 7)
@@ -54,7 +55,8 @@ usage: entropy [flags] [path ...]
 
 ```shell
 $ entropy-rest --help
-
+```
+```
 usage: entropy-rest [flags]
   -def_size uint
         default size for a block (default 1024)
@@ -79,7 +81,8 @@ curl --location --request POST 'http://<host:port>/api/entropy' \
 
 ```shell
 $ entropy-rest --help
-
+```
+```
 usage: entropy-html [flags]
   -def_size uint
         default size for a block (default 1024)
